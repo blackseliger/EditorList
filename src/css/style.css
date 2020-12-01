@@ -1,0 +1,92 @@
+.crm-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 960px;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+.header-block, .crm-list-goods {
+    width: 100%;
+}
+
+.header-block, .header-list-goods, .line, .action-line, .crm-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.header, .add-goods, .edit-line, .delete-line {
+    width: 50%;
+    padding: 2px;
+}
+
+.header {
+    padding-left: 100px;
+}
+
+.add-goods {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.name-list, .price-list, .action-list, .name-line, .price-line, .action-line {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+.crm-block-input {
+    padding-top: 10px;
+    width: 40%;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+}
+
+.name-item, .price-item {
+    width: 100%;
+    text-align: center;
+}
+
+.crm-buttons {
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+}
+
+.button-save {
+    margin-right: 50px;
+}
+
+.save-input, .cancel-input {
+    border: none;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
