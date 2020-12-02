@@ -10,6 +10,8 @@
     border-radius: 10px;
     background-color: cadetblue;
     box-sizing: border-box;
+    margin: 50px;
+    position: relative;
 }
 
 .header-block, .crm-list-goods {
@@ -26,13 +28,24 @@
     padding: 2px;
 }
 
+.header-block {
+    border-bottom: outset;
+    border-color: lavender;
+}
+
 .header {
     padding-left: 100px;
 }
 
 .add-goods {
     text-align: right;
+    font-size: large;
+    font-style: oblique;
     padding-right: 100px;
+}
+
+.add-new, .edit-line, .delete-line {
+    cursor: pointer;
 }
 
 .name-list, .price-list, .action-list, .name-line, .price-line, .action-line {
@@ -50,6 +63,16 @@
     align-items: center;
     border: none;
     border-radius: 25px;
+    position: absolute;
+}
+
+.header-input, .header-price {
+    padding: 5px;
+
+} 
+
+.block-hidden {
+    display: none;
 }
 
 .name-item, .price-item {
@@ -57,11 +80,16 @@
     text-align: center;
 }
 
-.crm-buttons {
-    width: 50%;
-    margin: 10px;
-    align-items: center;
+.input-price-field {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
 }
+
+.crm-buttons {
+    margin: 10px;
+    justify-content: space-between;
+;}
 
 .button-save {
     margin-right: 50px;

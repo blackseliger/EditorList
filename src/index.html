@@ -12,7 +12,9 @@
                 Товары
             </div>
             <div class="add-goods">
-                +
+                <span class="add-new">
+                    +
+                </span>
             </div>
         </div>
         <div class="crm-list-goods">
@@ -27,12 +29,12 @@
                     Действия
                 </div>
             </div>
-            <div class="line">
+            <div class="line" data-testid="IPhone-line">
                 <div class="name-line">
-                    IPhone XR
+                    IPhone
                 </div>
                 <div class="price-line">
-                    60 000
+                    60000
                 </div>
                 <div class="action-line">
                     <div class="edit-line">
@@ -45,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="crm-block-input">
+    <div class="crm-block-input block-hidden" data-id="CRM-B-input">
         <form action="" class="form-crm">
             <div class="name-item">
                 <label>
@@ -53,9 +55,12 @@
                         Название
                     </div>
                     <div class="input-name">
-                        <input type="text" class="input-field" required>
+                        <input type="text" class="input-field input-field-name" required>
                     </div>
                 </label>
+                <div class="warning-message-0 block-hidden warning-message" data-id="warning-mes-0">
+                    Введите название товара
+                </div>
             </div>
             <div class="price-item">
                 <label>
@@ -63,9 +68,12 @@
                         Стоимость
                     </div>
                     <div class="input-price">
-                        <input type="number" class="input-field" required>
+                        <input type="number" class="input-field input-price-field" required>
                     </div>
                 </label>
+                <div class="warning-message-1 block-hidden warning-message" data-id="warning-mes-1">
+                    Допускаются только числовые значения больше нуля. 
+                </div>
             </div>
             <div class="crm-buttons">
                 <div class="button-save">
